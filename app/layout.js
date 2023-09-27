@@ -1,10 +1,10 @@
 import "./globals.css";
-import { Roboto } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
-
-const roboto = Roboto({
-	weight: "400",
+//Spacegrotesk
+const Spacegrotesk = Space_Grotesk({
+	weight: ["300", "400", "500", "600", "700"],
 	subsets: ["latin"],
 });
 export const metadata = {
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={roboto.className}>
+			<body className={Spacegrotesk.className}>
 				<Header />
 				{children}
 				<Footer />

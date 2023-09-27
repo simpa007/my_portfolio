@@ -8,25 +8,6 @@ import Testimonial from "./component/home/Testimonial";
 import Portfolio from "./component/home/Portfolio";
 
 export default function Home() {
-	// const cardRef = useRef(null);
-	// const [arrowDisable, setArrowDisable] = useState(true);
-
-	// const handleHorizantalScroll = (element, speed, distance, step) => {
-	// 	let scrollAmount = 0;
-	// 	const slideTimer = setInterval(() => {
-	// 		element.scrollLeft += step;
-	// 		scrollAmount += Math.abs(step);
-	// 		if (scrollAmount >= distance) {
-	// 			clearInterval(slideTimer);
-	// 		}
-	// 		if (element.scrollLeft === 0) {
-	// 			setArrowDisable(true);
-	// 		} else {
-	// 			setArrowDisable(false);
-	// 		}
-	// 	}, speed);
-	// };
-
 	return (
 		<div>
 			<Hero />

@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #000;
-    color: #ffff;
+@layer base{
+    html {
+        @apply bg-[#1b1f24];
+        @apply text-[#fff]
+    }
+    h1 {
+        @apply text-3xl;
+      }
+      p {
+        @apply text-xl;
+      }
+}
+@layer utilities{
+  .no-scrollbar::-webkit-scrollbar{
+    display: none;
+  }
+  .no-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
