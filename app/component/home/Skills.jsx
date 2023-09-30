@@ -27,15 +27,15 @@ function Skills() {
 	);
 
 	return (
-		<div className="mt-28 px-12 py-28">
-			<div className="container flex justify-between items-center mx-auto">
+		<div className="mt-8 px-6 md:mt-12 md:px-12 md:py-28 lg:mt-28 ">
+			<div className="md:container md:flex md:justify-between md:mx-auto md:text-left lg:flex lg:justify-between lg:items-center lg:mx-auto lg:text-left">
 				<div>
 					<p className="text-2xl font-extrabold mb-4"> MY SKILLS</p>
-					<h1 className="text-5xl font-bold mb-4">
+					<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold lg:mb-4">
 						My extensive list of skills
 					</h1>
 				</div>
-				<div className="space-x-3">
+				<div className="my-6 space-x-3 md:space-x-3">
 					<button aria-label="Previous slide" onClick={() => keenSlider.prev()}>
 						<BsArrowLeftCircle size={52} />
 					</button>
@@ -44,7 +44,7 @@ function Skills() {
 					</button>
 				</div>
 			</div>
-			<div className=" -mx-12 ml-12 space-x-8 mt-6 py-18 no-scrollbar flex flex-nowrap overflow-x-auto snap-x snap-mandatory ">
+			<div className="md:-mx-12 md:ml-12  md:mt-6 md:py-18 md:space-x-10 md:no-scrollbar md:flex md:flex-nowrap md:overflow-x-auto md:snap-x md:snap-mandatory ">
 				<div id="keen-slider" className="keen-slider">
 					{/* card 1 */}
 					<div class="keen-slider__slide flex-none  snap-center snap-always  max-w-sm p-6 py-24 bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700">

@@ -4,19 +4,25 @@ import { BsArrowUpRight } from "react-icons/bs";
 function Portfolio() {
 	return (
 		<div>
-			<div className="container flex justify-center space-x-8  py-20 mx-auto mt-28">
-				<div className="mt-10">
-					<p className="text-2xl font-extrabold mb-4">MY PORTFOLIO</p>
-					<h1 className="text-5xl font-bold mb-8">
-						Take a look at the latest <br />
-						projects I’ve done
-					</h1>
-					<button className="underline underline-offset-8 text-lg font-bold">
-						Browse all Projects
-						<BsArrowUpRight size={24} className="inline-flex items-baseline" />
-					</button>
+			<div className="container px-6 mt-24 md:flex md:justify-center md:space-x-8  md:py-20 md:mx-auto md:mt-28">
+				<div className="">
+					<div>
+						<p className="text-2xl font-extrabold mb-4">MY PORTFOLIO</p>
+						<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold lg:mb-8">
+							Take a look at the latest <br />
+							projects I’ve done
+						</h1>
+						<button className="my-6 md:mt-8 underline underline-offset-8 text-lg font-bold">
+							Browse all Projects
+							<BsArrowUpRight
+								size={24}
+								className="inline-flex items-baseline"
+							/>
+						</button>
+					</div>
+
 					{/* card 1 */}
-					<div class="max-w-sm p-6 py-24 mt-9  bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700">
+					<div class="max-w-sm p-6 py-24 mb-9  bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700">
 						<svg
 							class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3"
 							aria-hidden="true"

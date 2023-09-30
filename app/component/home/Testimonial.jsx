@@ -7,17 +7,17 @@ import React from "react";
 function Testimonial() {
 	return (
 		<div className="bg-[#22282F]">
-			<div className="container mx-auto mt-28 p-12 py-24 ">
-				<div className="flex justify-between items-center px-8 ">
+			<div className="container mx-auto mt-28 py-24 ">
+				<div className="px-6 mx-auto md:flex md:justify-between  md:px-8 ">
 					<div>
 						<p className="text-2xl font-extrabold mb-4">TESTIMONIALS</p>
-						<h1 className="text-5xl font-bold mb-4">
+						<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold mb-4">
 							What the clients say
 							<br /> about my work
 						</h1>
 					</div>
 
-					<div>
+					<div className="mt-6">
 						<button className="underline underline-offset-8 text-lg font-bold">
 							Get in touch
 							<BsArrowUpRight

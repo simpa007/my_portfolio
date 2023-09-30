@@ -7,13 +7,13 @@ export default function Footer() {
 	return (
 		<>
 			<hr />
-			<div className="container flex justify-between items-center mx-auto mt-8 py-24">
-				<div>
-					<h1 className="text-xl font-extrabold mb-5">Simpa Emmanuel</h1>
-					<p className="text-3xl font-bold mb-5">
+			<div className=" container mt-8 px-6 mx-auto  md:flex md:justify-between md:items-center md:mx-auto md:py-16  lg:py-24">
+				<div className="md:border border-red-300">
+					<h1 className="text-xl font-extrabold mb-3">Simpa Emmanuel</h1>
+					<p className="md:text-xl md:font-bold lg:text-3xl lg:font-bold mb-3">
 						build something great today!
 					</p>
-					<div className="flex space-x-7 mt-5">
+					<div className="flex space-x-8 mt-3">
 						<button>
 							<FiTwitter size={36} />
 						</button>
@@ -28,23 +28,27 @@ export default function Footer() {
 						</button>
 					</div>
 				</div>
-				<div className="">
-					<h1 className="mb-5 font-extrabold text-2xl">
+				<div className="md:border border-green-300">
+					<h1 className="text-xl font-bold mt-8 mb-2 md:mb-3 md:font-extrabold md:text-2xl">
 						Get in touch
 						<AiOutlineArrowRight
 							size={30}
 							className="inline-flex items-baseline"
 						/>
 					</h1>
-					<div className="flex space-x-9 justify-between">
-						<div>
-							<p className="mb-2">EMAIL ME</p>
+					<div className="md:flex md:space-x-8 md:justify-between">
+						<div className="mb-3">
+							<p className="md:font-normal md:mb-0 lg:font-bold lg:mb-2">
+								EMAIL ME
+							</p>
 							<button className="underline underline-offset-8  font-bold">
 								simpaimmey@gmail.com
 							</button>
 						</div>
-						<div>
-							<p className="mb-2">CALL ME</p>
+						<div className="mb-8">
+							<p className="md:font-normal md:mb-0 lg:font-bold lg:mb-2">
+								CALL ME
+							</p>
 							<button className="underline underline-offset-8  font-bold">
 								[123] 66-44-3321
 							</button>
@@ -53,28 +57,28 @@ export default function Footer() {
 				</div>
 			</div>
 			<hr className="container mx-auto " />
-			<div className="container flex justify-between mx-auto items-center my-10">
-				<div class="hidden w-full md:block md:w-auto" id="navbar-default">
-					<ul class="font-medium flex flex-col p-4 md:p-0 mt-4  md:flex-row md:space-x-8 md:mt-0 md:border-0">
-						<Link href="/" class="block py-2 pl-3 pr-4 ">
+			<div className="container px-6 mx-auto my-10 text-center md:flex md:justify-between ">
+				<div class="md:block" id="navbar-default ">
+					<ul class="font-normal flex flex-row justify-between md:p-0 mt-4  md:flex-row md:space-x-4 md:mt-0 md:border-0">
+						<Link href="/" class="block py-2 md:p-0 lg:pl-2 lg:pr-3 ">
 							Home
 						</Link>
-						<Link href="/about" class="block py-2 pl-3 pr-4">
+						<Link href="/about" class="block py-2 md:p-0 lg:pl-2 lg:pr-3">
 							About
 						</Link>
-						<Link href="/blog" class="block py-2 pl-3 pr-4 ">
+						<Link href="/blog" class="block py-2 md:p-0 lg:pl-2 lg:pr-3 ">
 							Blog
 						</Link>
-						<Link href="/portfolio" class="block py-2 pl-3 pr-4 ">
+						<Link href="/portfolio" class="block py-2 md:p-0 lg:pl-2 lg:pr-3 ">
 							Portfolio
 						</Link>
-						<Link href="/contact" class="block py-2 pl-3 pr-4 ">
+						<Link href="/contact" class="block py-2 md:p-0 lg:pl-2 lg:pr-3 ">
 							Contact
 						</Link>
 					</ul>
 				</div>
-				<div>
-					<p>copyright &copy; Simpa Emmanuel | Designed by Simpa</p>
+				<div className="">
+					<p>copyright &copy; Simpa 2023</p>
 				</div>
 			</div>
 		</>

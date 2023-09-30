@@ -4,10 +4,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 function Contact() {
 	return (
 		<div className="bg-[#22282F]">
-			<div className="container flex justify-between items-center py-24 mt-8 mx-auto">
+			<div className="container px-6 py-24 mt-8 mx-auto md:flex md:justify-between md:items-center ">
 				<div className="">
-					<hr class="w-48 h-1 my-2 bg-white border-0 rounded" />
-					<h1 className="mt-2 text-4xl space-x-2 font-extrabold">
+					<hr class="h-1 my-2 w-20 md:w-32 lg:w-48  bg-white border-0 rounded" />
+					<h1 className="text-xl font-bold mt-2 space-x-2 md:text-2xl md:font-bold lg:text-4xl lg:font-extrabold">
 						Interested in working together?
 						<br />
 						Let’s talk
@@ -17,7 +17,7 @@ function Contact() {
 						/>
 					</h1>
 				</div>
-				<div className="w-[50%] px-8">
+				<div className="w-full mt-6 md:w-[50%] md:px-8">
 					<form>
 						<div class="relative z-0 w-full mb-12 group">
 							<input
@@ -30,7 +30,7 @@ function Contact() {
 							/>
 							<label
 								for="floating_name"
-								class="peer-focus:font-medium absolute text-3xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+								class="peer-focus:font-medium absolute md:text-2xl lg:text-3xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Enter your name
 							</label>
@@ -46,7 +46,7 @@ function Contact() {
 							/>
 							<label
 								for="floating_email"
-								class="peer-focus:font-medium absolute text-3xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+								class="peer-focus:font-medium absolute md:text-2xl lg:text-3xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Your email address
 							</label>
@@ -64,7 +64,7 @@ function Contact() {
 
 							<label
 								for="floating_text"
-								class="peer-focus:font-medium absolute text-3xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+								class="peer-focus:font-medium absolute md:text-2xl lg:text-3xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Describe your project
 							</label>
@@ -88,12 +88,3 @@ function Contact() {
 }
 
 export default Contact;
-
-{
-	/* <textarea
-id="message"
-rows="6"
-class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-placeholder="Leave a comment..."
-></textarea> */
-}

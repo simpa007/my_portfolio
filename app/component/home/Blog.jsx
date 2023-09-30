@@ -3,20 +3,20 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 function Blog() {
 	return (
-		<div className="relative container flex justify-between mx-auto px-12 my-24">
-			<div className="relative">
+		<div className="container px-6 mx-auto  my-24 md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-start ">
+			<div className="">
 				<h1 className="text-2xl font-extrabold mb-4">BLOG & ARTICLES</h1>
-				<p className="text-5xl font-extrabold mb-4">
+				<p className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-extrabold mb-4">
 					Check out my latest <br />
 					articles and tutorials
 				</p>
-				<button className="underline underline-offset-8 text-lg ">
+				<button className="my-6 underline underline-offset-8 text-lg ">
 					Browse all articles
 					<BsArrowUpRight size={24} className="inline-flex items-baseline" />
 				</button>
 			</div>
-			<div className="">
-				<div className="mb-36">
+			<div className="w-full mt-8 md:w-[45%]">
+				<div className="md:mb-36">
 					<h1 className="text-2xl mb-4 font-extrabold text-[#c3cad5]">
 						March 18, 2022 / Articules
 					</h1>
@@ -25,7 +25,7 @@ function Blog() {
 					</p>
 				</div>
 				<hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-				<div className="mb-36">
+				<div className="md:mb-36">
 					<h1 className="text-2xl font-extrabold mb-4 text-[#c3cad5]">
 						March 18, 2022 / Articules
 					</h1>
@@ -35,7 +35,7 @@ function Blog() {
 				</div>
 				<hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
-				<div className="mb-36">
+				<div className="md:mb-36">
 					<h1 className="text-2xl  mb-4 font-extrabold text-[#c3cad5]">
 						March 18, 2022 / Articules
 					</h1>
