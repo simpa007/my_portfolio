@@ -8,12 +8,12 @@ export default function Footer() {
 		<>
 			<hr />
 			<div className=" container mt-8 px-6 mx-auto  md:flex md:justify-between md:items-center md:mx-auto md:py-16  lg:py-24">
-				<div className="md:border border-red-300">
+				<div className="">
 					<h1 className="text-xl font-extrabold mb-3">Simpa Emmanuel</h1>
 					<p className="md:text-xl md:font-bold lg:text-3xl lg:font-bold mb-3">
 						build something great today!
 					</p>
-					<div className="flex space-x-8 mt-3">
+					<div className="flex space-x-6 md:space-x-4  lg:space-x-8 mt-3">
 						<button>
 							<FiTwitter size={36} />
 						</button>
@@ -28,7 +28,7 @@ export default function Footer() {
 						</button>
 					</div>
 				</div>
-				<div className="md:border border-green-300">
+				<div className="">
 					<h1 className="text-xl font-bold mt-8 mb-2 md:mb-3 md:font-extrabold md:text-2xl">
 						Get in touch
 						<AiOutlineArrowRight
@@ -36,7 +36,7 @@ export default function Footer() {
 							className="inline-flex items-baseline"
 						/>
 					</h1>
-					<div className="md:flex md:space-x-8 md:justify-between">
+					<div className="md:flex md:space-x-4 md:justify-between">
 						<div className="mb-3">
 							<p className="md:font-normal md:mb-0 lg:font-bold lg:mb-2">
 								EMAIL ME

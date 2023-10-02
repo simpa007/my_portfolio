@@ -3,7 +3,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 function Blog() {
 	return (
-		<div className="container px-6 mx-auto  my-24 md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-start ">
+		<div className="container px-6 mx-auto  my-24 md:flex md:justify-between md:items-center md:my-16 lg:flex lg:justify-between lg:items-start ">
 			<div className="">
 				<h1 className="text-2xl font-extrabold mb-4">BLOG & ARTICLES</h1>
 				<p className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-extrabold mb-4">

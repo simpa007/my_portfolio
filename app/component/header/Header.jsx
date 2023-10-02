@@ -10,7 +10,7 @@ export default function Header() {
 	//   const router = useRouter()
 	return (
 		<>
-			<div className="container mx-auto flex items-center justify-between py-8">
+			<div className="sm:px-6 container mx-auto flex items-center justify-between py-8">
 				<div>
 					<a href="/">
 						<img src="https://designbygio.it/images/logo.png" alt="logo" />
