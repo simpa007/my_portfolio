@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import logo from "../../icons/Simpa Color.svg";
 import hamburger from "../../images/svgrepo-com.svg";
 
 export default function Header() {
@@ -12,9 +13,9 @@ export default function Header() {
 		<>
 			<div className="container mx-auto flex items-center justify-between py-8">
 				<div>
-					<a href="/">
-						<img src="https://designbygio.it/images/logo.png" alt="logo" />
-					</a>
+					<Link href="/">
+						<Image src={logo} alt="logo" width={80} height={100} />
+					</Link>
 				</div>
 
 				<nav>
