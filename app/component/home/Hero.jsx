@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import background from "../../images/bg.png";
 import { FiTwitter, FiInstagram, FiLinkedin, FiGithub } from "react-icons/fi";
 import { BsArrowUpRight } from "react-icons/bs";
@@ -7,10 +8,10 @@ import { BsArrowUpRight } from "react-icons/bs";
 function Hero() {
 	return (
 		<div className="relative">
-			<div className="container px-6 mx-auto flex flex-col mt-20  md:flex md:flex-row md:mx-auto md:z-0 md:mt-10  lg:flex justify-around items-center lg:mx-auto lg:mt-10 lg:py-10  lg:z-0">
+			<div className="container mx-auto flex flex-col mt-20  md:flex md:flex-row md:mx-auto md:z-0 md:mt-10  lg:flex justify-between items-center lg:mx-auto lg:mt-10 lg:py-10  lg:z-0">
 				<div className="md:w-[45%]">
-					<hr class="w-20 h-1 bg-white border-0 rounded md:w-32 md:h-1 lg:w-48 lg:h-1 lg:my-2 " />
-					<h1 className="text-3xl font-extrabold mb-4 md:text-5xl md:font-extrabold lg:text-7xl lg:font-extrabold lg:mb-2">
+					<hr class="w-20 h-2 bg-white border-0 rounded md:w-32 md:h-2 lg:w-48 lg:h-2 lg:my-2 " />
+					<h1 className="text-3xl mt-8 leading-6 font-extrabold mb-4 md:text-5xl md:font-extrabold lg:text-7xl lg:font-extrabold lg:mb-2">
 						I’m Simpa, a <br />
 						Web Developer
 					</h1>
@@ -53,19 +54,19 @@ function Hero() {
 					<hr className="mb-8 text-[#c3cad5]" />
 					<div className="mb-8">
 						<h1 className="text-2xl font-extrabold mb-6">FOLLOW ME</h1>
-						<div className="flex space-x-7">
-							<button>
-								<FiTwitter size={36} />
-							</button>
-							<button>
-								<FiInstagram size={36} />
-							</button>
-							<button>
-								<FiLinkedin size={36} />
-							</button>
-							<button>
-								<FiGithub size={36} />
-							</button>
+						<div className="flex space-x-8">
+							<Link href="https://twitter.com/Simpa_sol">
+								<FiTwitter size={36} className="hover:text-[#4bf4a5]" />
+							</Link>
+							<Link href="https://www.instagram.com/simpa_sol/">
+								<FiInstagram size={36} className="hover:text-[#4bf4a5]" />
+							</Link>
+							<Link href="https://www.linkedin.com/in/simpa-emmanuel-67a5981a1/">
+								<FiLinkedin size={36} className="hover:text-[#4bf4a5]" />
+							</Link>
+							<Link href="https://github.com/simpa007">
+								<FiGithub size={36} className="hover:text-[#4bf4a5]" />
+							</Link>
 						</div>
 					</div>
 				</div>

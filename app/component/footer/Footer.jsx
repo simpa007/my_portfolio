@@ -13,19 +13,19 @@ export default function Footer() {
 					<p className="md:text-xl md:font-bold lg:text-3xl lg:font-bold mb-3">
 						build something great today!
 					</p>
-					<div className="flex space-x-6 md:space-x-4  lg:space-x-8 mt-3">
-						<button>
-							<FiTwitter size={36} />
-						</button>
-						<button>
-							<FiInstagram size={36} />
-						</button>
-						<button>
-							<FiLinkedin size={36} />
-						</button>
-						<button>
-							<FiGithub size={36} />
-						</button>
+					<div className="flex space-x-6 md:mt-4 md:space-x-4  lg:space-x-8">
+						<Link href="https://twitter.com/Simpa_sol">
+							<FiTwitter size={36} className="hover:text-[#4bf4a5]" />
+						</Link>
+						<Link href="https://www.instagram.com/simpa_sol/">
+							<FiInstagram size={36} className="hover:text-[#4bf4a5]" />
+						</Link>
+						<Link href="https://www.linkedin.com/in/simpa-emmanuel-67a5981a1/">
+							<FiLinkedin size={36} className="hover:text-[#4bf4a5]" />
+						</Link>
+						<Link href="https://github.com/simpa007">
+							<FiGithub size={36} className="hover:text-[#4bf4a5]" />
+						</Link>
 					</div>
 				</div>
 				<div className="">
@@ -50,7 +50,7 @@ export default function Footer() {
 								CALL ME
 							</p>
 							<button className="underline underline-offset-8  font-bold">
-								[123] 66-44-3321
+								[+234] 80-7369-6557
 							</button>
 						</div>
 					</div>

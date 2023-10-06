@@ -10,7 +10,7 @@ export default function Header() {
 	//   const router = useRouter()
 	return (
 		<>
-			<div className="sm:px-6 container mx-auto flex items-center justify-between py-8">
+			<div className="container mx-auto flex items-center justify-between py-8">
 				<div>
 					<a href="/">
 						<img src="https://designbygio.it/images/logo.png" alt="logo" />
@@ -46,34 +46,34 @@ export default function Header() {
 									<line x1="6" y1="6" x2="18" y2="18" />
 								</svg>
 							</button>
-							<ul className="flex flex-col items-center justify-between font-extrabold text-5xl space-y-14">
+							<ul className="fixed inset-x-0 inset-y-0 flex flex-col items-center justify-between font-extrabold text-5xl space-y-14">
 								<Link
 									href="/"
-									class="block py-2 pl-2 pr-3 border-b border-gray-400 uppercase text-green-200 "
+									class="block py-2 pl-2 pr-3 uppercase text-white hover:text-[#6ff4a5] "
 								>
 									Home
 								</Link>
 								<Link
 									href="/about"
-									class="block py-2 pl-2 pr-3 border-b border-gray-400 uppercase text-green-200"
+									class="block py-2 pl-2 pr-3  uppercase text-white hover:text-[#6ff4a5]"
 								>
 									About
 								</Link>
 								<Link
 									href="/blog"
-									class="block py-2 pl-2 pr-3 border-b border-gray-400 uppercase text-green-200 "
+									class="block py-2 pl-2 pr-3  uppercase text-white hover:text-[#6ff4a5]"
 								>
 									Blog
 								</Link>
 								<Link
 									href="/portfolio"
-									class="block py-2 pl-2 pr-3 border-b border-gray-400 uppercase text-green-200 "
+									class="block py-2 pl-2 pr-3  uppercase text-white hover:text-[#6ff4a5] "
 								>
 									Portfolio
 								</Link>
 								<Link
 									href="/contact"
-									class="block py-2 pl-2 pr-3 border-b border-gray-400 uppercase text-green-200 "
+									class="block py-2 pl-2 pr-3  uppercase text-white hover:text-[#6ff4a5] "
 								>
 									Contact
 								</Link>
@@ -82,19 +82,19 @@ export default function Header() {
 					</section>
 
 					<ul className="DESKTOP-MENU hidden font-medium space-x-8 lg:flex">
-						<Link href="/" class="block py-2 pl-2 pr-4 ">
+						<Link href="/" class="block py-2  text-xl font-bold ">
 							Home
 						</Link>
-						<Link href="/about" class="block py-2 pl-2 pr-3">
+						<Link href="/about" class="block py-2 text-xl font-bold">
 							About
 						</Link>
-						<Link href="/blog" class="block py-2 pl-2 pr-3 ">
+						<Link href="/blog" class="block py-2  text-xl font-bold ">
 							Blog
 						</Link>
-						<Link href="/portfolio" class="block py-2 pl-2 pr-3 ">
+						<Link href="/portfolio" class="block py-2 text-xl font-bold">
 							Portfolio
 						</Link>
-						<Link href="/contact" class="block py-2 pl-2 pr-3 ">
+						<Link href="/contact" class="block py-2 text-xl font-bold ">
 							Contact
 						</Link>
 					</ul>
@@ -107,10 +107,10 @@ export default function Header() {
         display: block;
         position: absolute;
         width: 100%;
-        height: 100%;
+        height: 1000vh;
         top: 0;
         left: 0;
-        background: white;
+        background: #2d343f;
         z-index: 10;
         display: flex;
         flex-direction: column;
