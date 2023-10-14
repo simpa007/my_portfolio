@@ -2,8 +2,6 @@
 
 import { BsArrowUpRight } from "react-icons/bs";
 
-import React from "react";
-
 function Testimonial() {
 	return (
 		<div className="bg-[#22282F]">

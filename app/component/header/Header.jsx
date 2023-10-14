@@ -14,7 +14,7 @@ export default function Header() {
 			<div className="container mx-auto flex items-center justify-between py-8">
 				<div>
 					<Link href="/">
-						<Image src={logo} alt="logo" width={80} height={100} />
+						<Image src={logo} alt="logo" width={60} height={100} />
 					</Link>
 				</div>
 
