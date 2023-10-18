@@ -11,7 +11,7 @@ function Hero() {
 			<div className="container mx-auto flex flex-col mt-20  md:flex md:flex-row md:mx-auto md:z-0 md:mt-10  lg:flex justify-between items-center lg:mx-auto lg:mt-10 lg:py-10  lg:z-0">
 				<div className="md:w-[45%]">
 					<hr class="w-20 h-2 bg-white border-0 rounded md:w-32 md:h-2 lg:w-48 lg:h-2 lg:my-2 " />
-					<h1 className="text-3xl mt-8 leading-6 font-extrabold mb-4 md:text-5xl md:font-extrabold lg:text-7xl lg:font-extrabold lg:mb-2">
+					<h1 className="text-3xl mt-8  font-extrabold mb-4 md:text-5xl md:font-extrabold lg:text-7xl lg:font-extrabold lg:mb-2">
 						I’m Simpa, a <br />
 						Web Developer
 					</h1>
