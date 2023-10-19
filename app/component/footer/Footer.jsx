@@ -1,19 +1,29 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { FiTwitter, FiInstagram, FiLinkedin, FiGithub } from "react-icons/fi";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import logo from "../../icons/Simpa Color.svg";
 
 export default function Footer() {
 	return (
 		<>
 			<hr />
-			<div className=" container mt-8 px-6 mx-auto  md:flex md:justify-between md:items-center md:mx-auto md:py-16  lg:py-24">
+			<div className="container mt-8 px-6 mx-auto  md:flex md:justify-between md:items-center md:mx-auto md:py-16  lg:py-24">
 				<div className="">
-					<h1 className="text-xl font-extrabold mb-3">Simpa Emmanuel</h1>
-					<p className="md:text-xl md:font-bold lg:text-3xl lg:font-bold mb-3">
+					<Link href="/">
+						<Image
+							src={logo}
+							alt="logo"
+							width={60}
+							height={100}
+							className="mb-6"
+						/>
+					</Link>
+					<p className="md:text-xl md:font-bold lg:text-3xl lg:font-bold mb-6">
 						build something great today!
 					</p>
-					<div className="flex space-x-6 md:mt-4 md:space-x-4  lg:space-x-8">
+					<div className="flex mb-6 space-x-6 md:mt-4 md:space-x-4  lg:space-x-8">
 						<Link href="https://twitter.com/Simpa_sol">
 							<FiTwitter size={36} className="hover:text-[#4bf4a5]" />
 						</Link>
@@ -29,27 +39,27 @@ export default function Footer() {
 					</div>
 				</div>
 				<div className="">
-					<h1 className="text-xl font-bold mt-8 mb-2 md:mb-3 md:font-extrabold md:text-2xl">
+					<h1 className="mt-12 mb-3 text-2xl font-bold md:mb-6 md:font-extrabold md:text-2xl">
 						Get in touch
 						<AiOutlineArrowRight
-							size={30}
-							className="inline-flex items-baseline"
+							size={45}
+							className="inline-flex items-baseline text-[#6ff4a5]"
 						/>
 					</h1>
 					<div className="md:flex md:space-x-4 md:justify-between">
-						<div className="mb-3">
+						<div className="mb-3 md:mb-6">
 							<p className="md:font-normal md:mb-0 lg:font-bold lg:mb-2">
 								EMAIL ME
 							</p>
-							<button className="underline underline-offset-8  font-bold">
+							<button className="mt-3 underline underline-offset-8  font-bold">
 								simpaimmey@gmail.com
 							</button>
 						</div>
-						<div className="mb-8">
+						<div className="mb-3 md:mb-6">
 							<p className="md:font-normal md:mb-0 lg:font-bold lg:mb-2">
 								CALL ME
 							</p>
-							<button className="underline underline-offset-8  font-bold">
+							<button className="mt-3 underline underline-offset-8  font-bold">
 								[+234] 80-7369-6557
 							</button>
 						</div>

@@ -8,7 +8,9 @@ function Portfolio() {
 			<div className="container px-6 mt-24 md:flex md:justify-center md:space-x-8  md:py-20 md:mx-auto md:mt-28">
 				<div className="">
 					<div>
-						<p className="text-2xl font-extrabold mb-4">MY PORTFOLIO</p>
+						<p className="text-2xl font-extrabold mb-6">
+							<span className="text-[#6ff4a5]">/</span> MY PORTFOLIO
+						</p>
 						<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold lg:mb-8">
 							Take a look at the latest <br />
 							projects I’ve done

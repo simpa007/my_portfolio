@@ -37,7 +37,9 @@ function Skills() {
 		<div className="mt-8 px-6 md:mt-12 md:px-12 md:py-28 lg:mt-28 ">
 			<div className=" container md:container md:flex md:justify-between md:mx-auto md:text-left lg:flex lg:justify-between lg:items-center lg:mx-auto lg:text-left">
 				<div>
-					<p className="text-2xl font-extrabold mb-4"> MY SKILLS</p>
+					<p className="text-2xl font-extrabold mb-6">
+						<span className="text-[#6ff4a5]">/</span> MY SKILLS
+					</p>
 					<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold lg:mb-4">
 						My extensive list of skills
 					</h1>

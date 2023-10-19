@@ -5,10 +5,12 @@ import { BsArrowUpRight } from "react-icons/bs";
 function Testimonial() {
 	return (
 		<div className="bg-[#22282F]">
-			<div className="container mx-auto mt-28 py-24 ">
-				<div className="px-6 mx-auto md:flex md:justify-between  md:px-8 ">
+			<div className="container mx-auto mt-28 py-24">
+				<div className="px-6 mx-auto md:flex md:justify-between md:items-center  md:px-8 ">
 					<div>
-						<p className="text-2xl font-extrabold mb-4">TESTIMONIALS</p>
+						<p className="text-2xl font-extrabold mb-6">
+							<span className="text-[#6ff4a5]">/</span> TESTIMONIALS
+						</p>
 						<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold mb-4">
 							What the clients say
 							<br /> about my work

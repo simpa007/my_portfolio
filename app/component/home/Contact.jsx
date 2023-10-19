@@ -41,16 +41,16 @@ function Contact() {
 
 	return (
 		<div className="bg-[#22282F]">
-			<div className="container px-6 py-24 mt-8 mx-auto md:flex md:justify-between md:items-center ">
+			<div className="container px-6 py-24 mx-auto md:flex md:justify-between md:items-center ">
 				<div className="">
 					<hr class="h-1 my-2 w-20 md:w-32 lg:w-48  bg-white border-0 rounded" />
-					<h1 className="text-xl font-bold mt-2 space-x-2 md:text-2xl md:font-bold lg:text-4xl lg:font-extrabold">
+					<h1 className="text-xl font-bold mt-12 space-x-2 md:text-2xl md:font-bold lg:text-4xl lg:font-extrabold">
 						Interested in working together?
 						<br />
 						Let’s talk
 						<AiOutlineArrowRight
-							size={30}
-							className="inline-flex items-baseline"
+							size={45}
+							className="inline-flex items-baseline text-[#6ff4a5]"
 						/>
 					</h1>
 				</div>
