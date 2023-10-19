@@ -64,7 +64,7 @@ function Skills() {
 			<div className="md:-mx-12 md:ml-12  md:mt-6">
 				<div id="keen-slider" className="keen-slider">
 					{/* card 1 */}
-					<div class="keen-slider__slide  max-w-sm p-6 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={html} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">HTML & CSS</h1>
 						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
@@ -74,7 +74,7 @@ function Skills() {
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
 					{/* card 1 */}
-					<div class="keen-slider__slide  max-w-sm p-6 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={javascript} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Javascript</h1>
 						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
@@ -84,7 +84,7 @@ function Skills() {
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
 					{/* card 1 */}
-					<div class="keen-slider__slide  max-w-sm p-6 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={react} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">React JS</h1>
 						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
@@ -94,7 +94,7 @@ function Skills() {
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
 					{/* card 1 */}
-					<div class="keen-slider__slide  max-w-sm p-6 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={nodejs} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Node JS</h1>
 						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
@@ -104,7 +104,7 @@ function Skills() {
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
 					{/* card 1 */}
-					<div class="keen-slider__slide  max-w-sm p-6 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={webFlow} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Webflow</h1>
 						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
@@ -114,7 +114,7 @@ function Skills() {
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
 					{/* card 1 */}
-					<div class="keen-slider__slide  max-w-sm p-6 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={wordPress} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Wordpress</h1>
 						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">

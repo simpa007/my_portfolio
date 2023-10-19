@@ -25,7 +25,7 @@ function Portfolio() {
 					</div>
 
 					{/* card 1 */}
-					<div class="max-w-sm py-12 px-6 mb-9  bg-[#2a313b] border border-[#2a313b] rounded-2xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="max-w-lg py-12 px-6 mb-9  bg-[#2a313b] border border-[#2a313b] rounded-2xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<div className="flex  justify-end space-x-3 text-white">
 							<span className="border border-[#505d71] bg-[#505d71] p-2 rounded-md">
 								React JS
@@ -42,7 +42,7 @@ function Portfolio() {
 				</div>
 
 				<div>
-					<div class="max-w-sm py-12 px-6 mb-9  bg-[#2a313b] border border-[#2a313b] rounded-2xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="max-w-lg py-12 px-6 mb-9  bg-[#2a313b] border border-[#2a313b] rounded-2xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<div className="flex  justify-end space-x-3 text-white">
 							<span className="border border-[#505d71] bg-[#505d71] p-2 rounded-md">
 								React JS
@@ -56,7 +56,7 @@ function Portfolio() {
 							<Image />
 						</div>
 					</div>
-					<div class="max-w-sm py-12 px-6 mb-9  bg-[#2a313b] border border-[#2a313b] rounded-2xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
+					<div class="max-w-lg py-12 px-6 mb-9  bg-[#2a313b] border border-[#2a313b] rounded-2xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<div className="flex  justify-end space-x-3 text-white">
 							<span className="border border-[#505d71] bg-[#505d71] p-2 rounded-md">
 								React JS

@@ -6,7 +6,7 @@ function Testimonial() {
 	return (
 		<div className="bg-[#22282F]">
 			<div className="container mx-auto mt-28 py-24">
-				<div className="px-6 mx-auto md:flex md:justify-between md:items-center  md:px-8 ">
+				<div className="px-6 mx-auto md:flex md:justify-between md:items-center  md:px-0 border ">
 					<div>
 						<p className="text-2xl font-extrabold mb-6">
 							<span className="text-[#6ff4a5]">/</span> TESTIMONIALS
