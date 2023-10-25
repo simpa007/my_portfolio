@@ -4,7 +4,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 function Portfolio() {
 	return (
-		<div>
+		<div id="portfolio">
 			<div className="container px-6 mt-24 md:flex md:justify-center md:space-x-8  md:py-20 md:mx-auto md:mt-28">
 				<div className="">
 					<div>

@@ -7,7 +7,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 function Hero() {
 	return (
-		<div className="relative">
+		<div id="home" className="relative">
 			<div className="container mx-auto flex flex-col mt-20 px-6  md:flex md:flex-row md:mx-auto md:z-0 md:mt-10  lg:flex justify-between items-center lg:mx-auto lg:mt-10 lg:py-10  lg:z-0">
 				<div className="w-full md:w-[45%]">
 					<hr class="w-20 h-2 bg-white border-0 rounded md:w-32 md:h-2 lg:w-48 lg:h-2 lg:my-2 " />

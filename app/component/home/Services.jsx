@@ -3,7 +3,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 export default function Services() {
 	return (
-		<div className="">
+		<div id="services" className="">
 			<div className="container mx-auto py-24">
 				<div className="px-6 mx-auto md:flex md:justify-between md:items-center md:px-0">
 					<div>

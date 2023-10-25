@@ -5,7 +5,7 @@ import picture from "../../images/5.jpg";
 
 function Testimonial() {
 	return (
-		<div className="bg-[#22282F]">
+		<div id="testimonials" className="bg-[#22282F]">
 			<div className="container mx-auto mt-28 py-24">
 				<div className="px-6 mx-auto md:flex md:justify-between md:items-center md:px-0">
 					<div>

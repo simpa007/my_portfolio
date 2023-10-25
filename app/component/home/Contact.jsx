@@ -40,7 +40,7 @@ function Contact() {
 	};
 
 	return (
-		<div className="bg-[#22282F]">
+		<div id="contact" className="bg-[#22282F]">
 			<div className="container px-6 py-24 mx-auto md:flex md:justify-between md:items-center ">
 				<div className="">
 					<hr class="h-1 my-2 w-20 md:w-32 lg:w-48  bg-white border-0 rounded" />

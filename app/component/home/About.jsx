@@ -4,7 +4,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 function About() {
 	return (
-		<div className="bg-[#22282F]">
+		<div id="about" className="bg-[#22282F]">
 			<div className="container py-24 px-6 mx-auto md:mx-auto md:py-24 lg:flex  lg:justify-between lg:items-center lg:mx-auto  lg:mt-28 lg:py-24">
 				<div className="md:w-[100%]   lg:w-[45%]">
 					<p className="text-2xl font-extrabold mb-6">
