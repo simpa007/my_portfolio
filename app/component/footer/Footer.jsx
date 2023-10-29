@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FiTwitter, FiInstagram, FiLinkedin, FiGithub } from "react-icons/fi";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import logo from "../../icons/Simpa Color.svg";
+import logo from "../../assets/icons/Simpa Color.svg";
 
 export default function Footer() {
 	return (

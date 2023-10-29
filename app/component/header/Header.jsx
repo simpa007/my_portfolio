@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../icons/Simpa Color.svg";
-import hamburger from "../../images/svgrepo-com.svg";
-import menu from "../../icons/menu-bar.png";
-import close from "../../icons/close-button.png";
+import logo from "../../assets/icons/Simpa Color.svg";
+
+import menu from "../../assets/icons/menu-bar.png";
+import close from "../../assets/icons/close-button.png";
 
 const navLinks = [
 	{
@@ -35,7 +35,7 @@ export default function Header() {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<>
-			<nav className=" container mx-auto flex py-6 justify-between items-center navbar">
+			<nav className="py-6 container mx-auto flex justify-between items-center navbar mt-4 md:py-0">
 				{/* Logo */}
 				<Link href="/">
 					<Image src={logo} alt="logo" width="60" height="100" />
@@ -56,7 +56,7 @@ export default function Header() {
 					))}
 				</ul>
 				{/* Mobile Navigation */}
-				<div className="md:hidden flex flex-1 justify-end items-center">
+				<div className="md:hidden py-6 flex flex-1 justify-end items-center">
 					<Image
 						src={toggle ? close : menu}
 						alt="menu"

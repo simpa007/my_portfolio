@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { BsArrowUpRight } from "react-icons/bs";
-import picture from "../../images/5.jpg";
+import picture from "../../assets/images/5.jpg";
 
 function Testimonial() {
 	return (

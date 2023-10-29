@@ -3,12 +3,12 @@ import Image from "next/image";
 import "keen-slider/keen-slider.min.css";
 import KeenSlider from "keen-slider";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
-import react from "../../icons/icons8-react-96.png";
-import html from "../../icons/icons8-html-5-100.png";
-import javascript from "../../icons/icons8-javascript-100.png";
-import wordPress from "../../icons/icons8-wordpress-100.png";
-import webFlow from "../../icons/icons8-webflow-96.png";
-import nodejs from "../../icons/icons8-nodejs-96.png";
+import react from "../../assets/icons/icons8-react-96.png";
+import html from "../../assets/icons/icons8-html-5-100.png";
+import javascript from "../../assets/icons/icons8-javascript-100.png";
+import wordPress from "../../assets/icons/icons8-wordpress-100.png";
+import webFlow from "../../assets/icons/icons8-webflow-96.png";
+import nodejs from "../../assets/icons/icons8-nodejs-96.png";
 
 function Skills() {
 	const keenSlider = new KeenSlider(
@@ -38,7 +38,7 @@ function Skills() {
 			<div className=" container md:container md:flex md:justify-between md:mx-auto md:text-left lg:flex lg:justify-between lg:items-center lg:mx-auto lg:text-left">
 				<div>
 					<p className="text-2xl font-extrabold mb-6">
-						<span className="text-[#6ff4a5]">/</span> MY SKILLS
+						<span className="text-[assets/]">/</span> MY SKILLS
 					</p>
 					<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold lg:mb-4">
 						My extensive list of skills

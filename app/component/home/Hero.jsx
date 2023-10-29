@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import background from "../../images/bg.png";
+import background from "../../assets/images/bg.png";
 import { FiTwitter, FiInstagram, FiLinkedin, FiGithub } from "react-icons/fi";
 import { BsArrowUpRight } from "react-icons/bs";
 
