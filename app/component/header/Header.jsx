@@ -32,59 +32,76 @@ const navLinks = [
 
 export default function Header() {
 	const [active, setActive] = useState("Home");
-	const [toggle, setToggle] = useState(false);
+	const [navbar, setNavbar] = useState(false);
 	return (
-		<>
-			<nav className="py-6 container mx-auto flex justify-between items-center navbar mt-4 md:py-0">
-				{/* Logo */}
-				<Link href="/">
-					<Image src={logo} alt="logo" width="60" height="100" />
-				</Link>
-
-				{/* Desktop Navigation */}
-				<ul className="list-none md:flex hidden justify-end items-center flex-1">
-					{navLinks.map(({ id, title, index }) => (
-						<li
-							key={id}
-							className={`text-xl font-semibold cursor-pointer ${
-								active === title ? "text-[#6ff4a5]" : "text-dimWhite"
-							} ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-							onClick={() => setActive(title)}
-						>
-							<Link href={`#${id}`}>{title}</Link>
-						</li>
-					))}
-				</ul>
-				{/* Mobile Navigation */}
-				<div className="md:hidden py-6 flex flex-1 justify-end items-center">
-					<Image
-						src={toggle ? close : menu}
-						alt="menu"
-						className="w-[28px] h-[28px] object-contain cursor-pointer"
-						onClick={() => setToggle(!toggle)}
-					/>
-					{/* Sidebar */}
-					<div
-						className={`${
-							!toggle ? "hidden" : "flex"
-						} p-6 bg-black bg-opacity-25 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
-					>
-						<ul className="list-none flex justify-end items-start flex-1 flex-col">
-							{navLinks.map(({ id, title, index }) => (
-								<li
-									key={id}
-									className={`text-lg font-semibold cursor-pointer ${
-										active === title ? "text-[#6ff4a5]" : "text-dimWhite"
-									} ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-									onClick={() => setActive(title)}
+		<div>
+			<nav className="container mx-auto top-0 left-0 right-0 z-10">
+				<div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+					<div>
+						<div className="flex items-center justify-between py-3 md:py-5 md:block">
+							{/* LOGO */}
+							<Link href="/">
+								<Image
+									src={logo}
+									alt="logo"
+									width={50}
+									height={50}
+									className="object-contain"
+								/>
+							</Link>
+							{/* HAMBURGER BUTTON FOR MOBILE */}
+							<div className="md:hidden">
+								<button
+									className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+									onClick={() => setNavbar(!navbar)}
 								>
-									<Link href={`#${id}`}>{title}</Link>
+									{navbar ? (
+										<Image src={close} width={30} height={30} alt="logo" />
+									) : (
+										<Image
+											src={menu}
+											width={30}
+											height={30}
+											alt="logo"
+											className="focus:border-none active:border-none"
+										/>
+									)}
+								</button>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div
+							className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+								navbar ? "p-12 md:p-0 block" : "hidden"
+							}`}
+						>
+							<ul className="h-screen md:h-auto items-center justify-center md:flex ">
+								<li className="pb-6 text-xl font-bold  py-8 md:px-6 text-center hover:text-blue-gray-400">
+									<Link href="#about" onClick={() => setNavbar(!navbar)}>
+										About
+									</Link>
 								</li>
-							))}
-						</ul>
+								<li className="pb-6 text-xl font-bold py-8 px-6 text-center hover:text-blue-gray-400">
+									<Link href="#portfolio" onClick={() => setNavbar(!navbar)}>
+										Portfolio
+									</Link>
+								</li>
+								<li className="pb-6 text-xl font-bold  py-8 px-6 text-center hover:text-blue-gray-400">
+									<Link href="#services" onClick={() => setNavbar(!navbar)}>
+										Services
+									</Link>
+								</li>
+								<li className="pb-6 text-xl font-bold  py-8 px-6 text-center hover:text-blue-gray-400">
+									<Link href="#contact" onClick={() => setNavbar(!navbar)}>
+										Contact
+									</Link>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</nav>
-		</>
+		</div>
 	);
 }
