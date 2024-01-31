@@ -51,10 +51,7 @@ export default function Header() {
 							</Link>
 							{/* HAMBURGER BUTTON FOR MOBILE */}
 							<div className="md:hidden">
-								<button
-									className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-									onClick={() => setNavbar(!navbar)}
-								>
+								<button className="p-2" onClick={() => setNavbar(!navbar)}>
 									{navbar ? (
 										<Image src={close} width={30} height={30} alt="logo" />
 									) : (
@@ -72,11 +69,11 @@ export default function Header() {
 					</div>
 					<div>
 						<div
-							className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+							className={` flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
 								navbar ? "p-12 md:p-0 block" : "hidden"
 							}`}
 						>
-							<ul className="h-screen md:h-auto items-center justify-center md:flex ">
+							<ul className="md:h-auto items-center justify-center md:flex ">
 								<li className="pb-6 text-xl font-bold  py-8 md:px-6 text-center hover:text-blue-gray-400">
 									<Link href="#about" onClick={() => setNavbar(!navbar)}>
 										About

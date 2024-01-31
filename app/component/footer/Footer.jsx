@@ -6,6 +6,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import logo from "../../assets/icons/Simpa Color.svg";
 
 export default function Footer() {
+	function getYear() {
+		const year = new Date().getFullYear();
+		return year;
+	}
 	return (
 		<>
 			<hr />
@@ -88,7 +92,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				<div className="">
-					<p>copyright &copy; Simpa 2023</p>
+					<p>copyright &copy; Simpa {getYear()}</p>
 				</div>
 			</div>
 		</>

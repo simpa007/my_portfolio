@@ -12,48 +12,56 @@ function Hero() {
 				<div className="w-full md:w-[45%]">
 					<hr class="w-20 h-2 bg-white border-0 rounded md:w-32 md:h-2 lg:w-48 lg:h-2 lg:my-2 " />
 					<h1 className="text-4xl mt-12 font-extrabold mb-4 md:text-5xl md:font-extrabold lg:text-7xl lg:font-extrabold lg:mb-2">
-						I’m Simpa, a <br />
+						I’m <span className="text-[#6ff4a5]">Simpa</span>, a <br />
 						Web Developer
 					</h1>
-					<p className=" text-lg text-[offwhite] mt-4">
-						Lorem ipsum dolor sit amet consectetur adipiscing
-						<br /> elit leo quis ullamcorper quis id elementum convallis lacus
-						gravida.
-					</p>
+					<p className=" text-lg text-[offwhite] mt-4">CALL TO ACTION BUTTON</p>
 				</div>
 				<div className="md:w-[45%] lg:w-[30%]">
 					<div className="my-8">
-						<h1 className="text-2xl font-extrabold mb-4">ABOUT ME</h1>
-						<p className="mb-4">
-							Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis
-							ullamcorper quis id elementum convallis lacus gravida.
+						<h1 className="text-2xl font-extrabold mb-4 text-[#6ff4a5]">
+							ABOUT ME
+						</h1>
+						<p className="mb-4 text-lg font-normal">
+							I design and code beautifully simple things. and I love what I do.
 						</p>
-						<button className="underline underline-offset-8 text-lg">
+						<Link
+							href="#about"
+							className="underline underline-offset-8 text-lg"
+						>
 							LEARN MORE{" "}
 							<BsArrowUpRight
 								size={24}
 								className="inline-flex items-baseline"
 							/>
-						</button>
+						</Link>
 					</div>
 					<hr className="my-12 border-[#c3cad5]" />
 					<div className="">
-						<h1 className="text-2xl font-extrabold mb-4">MY WORK</h1>
-						<p className="mb-4">
-							Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis
-							ullamcorper quis id elementum convallis lacus gravida.
+						<h1 className="text-2xl font-extrabold mb-4 text-[#6ff4a5]">
+							MY WORK
+						</h1>
+						<p className="mb-4 text-lg font-normal">
+							I offer comprehensive services covering the entire app development
+							lifecycle, from conceptualization to deployment and ongoing
+							support
 						</p>
-						<button className="underline underline-offset-8 text-lg">
+						<Link
+							href="#portfolio"
+							className="underline underline-offset-8 text-lg"
+						>
 							BROWSE PORTFOLIO{" "}
 							<BsArrowUpRight
 								size={24}
 								className="inline-flex items-baseline"
 							/>
-						</button>
+						</Link>
 					</div>
 					<hr className="my-12 border-[#c3cad5]" />
 					<div className="">
-						<h1 className="text-2xl font-extrabold mb-6">FOLLOW ME</h1>
+						<h1 className="text-2xl font-extrabold mb-6 text-[#6ff4a5]">
+							FOLLOW ME
+						</h1>
 						<div className="flex space-x-8">
 							<Link href="https://twitter.com/Simpa_sol">
 								<FiTwitter size={36} className="hover:text-[#4bf4a5]" />

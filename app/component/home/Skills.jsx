@@ -38,7 +38,7 @@ function Skills() {
 			<div className=" container md:container md:flex md:justify-between md:mx-auto md:text-left lg:flex lg:justify-between lg:items-center lg:mx-auto lg:text-left">
 				<div>
 					<p className="text-2xl font-extrabold mb-6">
-						<span className="text-[assets/]">/</span> MY SKILLS
+						<span className="text-[#6ff4a5]">/</span> MY SKILLS
 					</p>
 					<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold lg:mb-4">
 						My extensive list of skills
@@ -67,7 +67,7 @@ function Skills() {
 					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={html} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">HTML & CSS</h1>
-						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
+						<p class=" font-normal text-lg  text-[#c3cab8] dark:text-[#c3cab8] mb-10">
 							Go to this step by step guideline process on how to certify for
 							your weekly benefits:
 						</p>
@@ -77,7 +77,7 @@ function Skills() {
 					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={javascript} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Javascript</h1>
-						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
+						<p class=" text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
 							Go to this step by step guideline process on how to certify for
 							your weekly benefits:
 						</p>
@@ -87,7 +87,7 @@ function Skills() {
 					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={react} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">React JS</h1>
-						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
+						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
 							Go to this step by step guideline process on how to certify for
 							your weekly benefits:
 						</p>
@@ -97,7 +97,7 @@ function Skills() {
 					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={nodejs} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Node JS</h1>
-						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
+						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
 							Go to this step by step guideline process on how to certify for
 							your weekly benefits:
 						</p>
@@ -107,7 +107,7 @@ function Skills() {
 					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={webFlow} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Webflow</h1>
-						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
+						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
 							Go to this step by step guideline process on how to certify for
 							your weekly benefits:
 						</p>
@@ -117,7 +117,7 @@ function Skills() {
 					<div class="keen-slider__slide  max-w-sm px-10 py-24 bg-[#2a313b] border border-[#2a313b] rounded-3xl shadow dark:bg-[#2a313b] dark:border-[#2a313b]">
 						<Image src={wordPress} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Wordpress</h1>
-						<p class=" font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
+						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
 							Go to this step by step guideline process on how to certify for
 							your weekly benefits:
 						</p>
