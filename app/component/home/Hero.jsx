@@ -15,7 +15,20 @@ function Hero() {
 						I’m <span className="text-[#6ff4a5]">Simpa</span>, a <br />
 						Web Developer
 					</h1>
-					<p className=" text-lg text-[offwhite] mt-4">CALL TO ACTION BUTTON</p>
+					<div className="mt-8">
+						<Link
+							href="#about"
+							className="underline underline-offset-8 text-lg"
+						>
+							GET IN TOUCH{" "}
+							<BsArrowUpRight
+								size={24}
+								className="inline-flex items-baseline"
+							/>
+						</Link>
+					</div>
+
+					{/* <p className=" text-lg text-[offwhite] mt-4">CALL TO ACTION BUTTON</p> */}
 				</div>
 				<div className="md:w-[45%] lg:w-[30%]">
 					<div className="my-8">
