@@ -17,7 +17,7 @@ function Hero() {
 					</h1>
 					<div className="mt-8">
 						<Link
-							href="#about"
+							href="https://wa.me/08073696557"
 							className="underline underline-offset-8 text-lg"
 						>
 							GET IN TOUCH{" "}
