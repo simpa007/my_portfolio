@@ -3,12 +3,12 @@ import Image from "next/image";
 import "keen-slider/keen-slider.min.css";
 import KeenSlider from "keen-slider";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
-import react from "../../assets/icons/icons8-react-96.png";
-import html from "../../assets/icons/icons8-html-5-100.png";
-import javascript from "../../assets/icons/icons8-javascript-100.png";
-import wordPress from "../../assets/icons/icons8-wordpress-100.png";
-import webFlow from "../../assets/icons/icons8-webflow-96.png";
-import nodejs from "../../assets/icons/icons8-nodejs-96.png";
+import react from "./assets/icons/icons8-react-96.png";
+import html from "./assets/icons/icons8-html-5-100.png";
+import javascript from "./assets/icons/icons8-javascript-100.png";
+import wordPress from "./assets/icons/icons8-wordpress-100.png";
+import webFlow from "./assets/icons/icons8-webflow-96.png";
+import nodejs from "./assets/icons/icons8-nodejs-96.png";
 
 function Skills() {
 	const keenSlider = new KeenSlider(

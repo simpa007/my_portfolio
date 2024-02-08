@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsArrowUpRight } from "react-icons/bs";
 import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
-import picture from "../../assets/images/5.jpg";
+import picture from "./assets/images/5.jpg";
 
 let info = [
 	{

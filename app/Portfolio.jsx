@@ -2,8 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowUpRight } from "react-icons/bs";
-import rental from "../../assets/images/rental.png";
-import movie from "../../assets/images/movie.png";
+import rental from "./assets/images/rental.png";
+import movie from "./assets/images/movie.png";
 
 function Portfolio() {
 	return (

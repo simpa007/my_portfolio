@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../assets/icons/Simpa Color.svg";
+import logo from "../assets/icons/Simpa Color.svg";
 
-import menu from "../../assets/icons/menu-bar.png";
-import close from "../../assets/icons/close-button.png";
+import menu from "../assets/icons/menu-bar.png";
+import close from "../assets/icons/close-button.png";
 
 const navLinks = [
 	{

@@ -1,8 +1,8 @@
 import "./globals.css";
 import Head from "next/head";
 import { Space_Grotesk } from "next/font/google";
-import Header from "./component/header/Header";
-import Footer from "./component/footer/Footer";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 //Spacegrotesk
 const Spacegrotesk = Space_Grotesk({
