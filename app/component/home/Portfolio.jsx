@@ -16,7 +16,7 @@ function Portfolio() {
 						</p>
 						<h1 className="text-xl font-bold md:text-2xl md:font-bold lg:text-5xl lg:font-bold lg:mb-8">
 							Take a look at the latest <br />
-							projects I’ve done
+							projects I&apos;ve done
 						</h1>
 						<button className="my-6 md:mt-8 underline underline-offset-8 text-lg font-bold">
 							Browse all Projects
@@ -89,7 +89,6 @@ function Portfolio() {
 						</div>
 						<div className="mt-20">
 							<h1 className="px-6">Agency Website Development for Dev X</h1>
-							<Image />
 						</div>
 					</div>
 				</div>

@@ -88,7 +88,7 @@ export default function Services() {
 						<div className="max-w-[100%] md:max-w-[50%]">
 							<div className="flex space-x-8 items-end">
 								<p className="text-lg font-normal text-right">
-									My services focus on improving a website's organic search
+									My services focus on improving a website&apos;s organic search
 									presence, driving targeted traffic, and increasing overall
 									online visibility.
 								</p>
