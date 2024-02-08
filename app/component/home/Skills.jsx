@@ -68,8 +68,8 @@ function Skills() {
 						<Image src={html} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">HTML & CSS</h1>
 						<p class=" font-normal text-lg  text-[#c3cab8] dark:text-[#c3cab8] mb-10">
-							Go to this step by step guideline process on how to certify for
-							your weekly benefits:
+							All web browsers understand and interpret HTML and CSS, making it
+							a universal language for web development.
 						</p>
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
@@ -78,8 +78,9 @@ function Skills() {
 						<Image src={javascript} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Javascript</h1>
 						<p class=" text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
-							Go to this step by step guideline process on how to certify for
-							your weekly benefits:
+							JavaScript is a versatile and widely used programming language
+							that is primarily employed for building interactive and dynamic
+							web pages
 						</p>
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
@@ -88,8 +89,9 @@ function Skills() {
 						<Image src={react} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">React JS</h1>
 						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
-							Go to this step by step guideline process on how to certify for
-							your weekly benefits:
+							React is a JavaScript library for building user interfaces,
+							primarily for single-page applications where user interactions and
+							updates occur without requiring a full page reload
 						</p>
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
@@ -98,8 +100,8 @@ function Skills() {
 						<Image src={nodejs} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Node JS</h1>
 						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
-							Go to this step by step guideline process on how to certify for
-							your weekly benefits:
+							Node.js is a runtime environment that allows developers to run
+							JavaScript code on the server side or backend.
 						</p>
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
@@ -108,8 +110,9 @@ function Skills() {
 						<Image src={webFlow} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Webflow</h1>
 						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
-							Go to this step by step guideline process on how to certify for
-							your weekly benefits:
+							Webflow is a visual web development platform that allows users to
+							design, build, and launch responsive websites without needing to
+							write code manually.
 						</p>
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
@@ -118,8 +121,8 @@ function Skills() {
 						<Image src={wordPress} alt="react logo" className="mb-6" />
 						<h1 className="mb-3">Wordpress</h1>
 						<p class="text-lg font-normal text-[#c3cab8] dark:text-[#c3cab8] mb-10">
-							Go to this step by step guideline process on how to certify for
-							your weekly benefits:
+							WordPress is a popular content management system (CMS) that allows
+							users to create and manage websites without extensive coding.
 						</p>
 						<hr className="w-20 h-2 bg-white border-0 rounded" />
 					</div>
